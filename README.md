@@ -1,10 +1,12 @@
 # Ruby on Rails Club
 
-## Módulo 01
+## ROR-7X-INI - Ruby on Rails 7.x para iniciantes
 
-## Módulo 02
+### Módulo 01
 
-## Módulo 03: Entendendo e usando Gems - Aula 01 - Entendendo e usando Gems
+### Módulo 02
+
+### Módulo 03: Entendendo e usando Gems - Aula 01 - Entendendo e usando Gems
 * Gems são bibliotecas Ruby
 * Site oficial que hospeda as Gems: https://rubygems.org/
 * Instalar Gem, no terminal: 
@@ -35,8 +37,9 @@
 ```sh
     bundle install
 ```
+rails new first-app --database=postgresql --skip-git
 
-## Módulo 03: Entendendo e usando Gems - Aula 02 - Conhecendo algumas gems interessantes
+### Módulo 03: Entendendo e usando Gems - Aula 02 - Conhecendo algumas gems interessantes
 * Para fazer cadastros falsos e evitar que precisemos estar digitando manualmente muitos dados
     * https://rubygems.org/gems/ffaker
     * https://rubygems.org/gems/faker
@@ -50,4 +53,4 @@
     result = JSON.parse(response, symbolize_names: true)
 ```
 
-## Módulo 04: Criando nossa primeira aplicação - Aula 01 - Criando o primeiro projeto Rails + MVC
+### Módulo 04: Criando nossa primeira aplicação - Aula 01 - Criando o primeiro projeto Rails + MVC
